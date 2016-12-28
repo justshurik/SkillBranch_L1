@@ -3,4 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!--цвета разделитедей-->
+    <color name="grey">#616161</color>
+    <color name="light_grey">#c2c2c2</color>
+    <color name="black">#000000</color>
 </resources>

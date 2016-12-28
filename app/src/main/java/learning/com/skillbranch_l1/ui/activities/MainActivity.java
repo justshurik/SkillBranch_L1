@@ -16,25 +16,13 @@ import learning.com.skillbranch_l1.R;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnChangeColor;
-    TextView tvText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        btnChangeColor = (Button) findViewById(R.id.btnChangeColor);
-        tvText = (TextView) findViewById(R.id.tvText);
-
-        btnChangeColor.setOnClickListener(onClickListener);
-
     }
 
 
-    View.OnClickListener onClickListener = new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            tvText.setBackgroundColor(getResources().getColor(R.color.colorAccent));
-        }
-    };
+
 }
