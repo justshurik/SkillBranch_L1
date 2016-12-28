@@ -12,7 +12,15 @@
     tools:context="learning.com.skillbranch_l1.ui.activities.MainActivity">
 
     <TextView
+        android:id="@+id/tvText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"/>
+
+    <Button
+        android:id="@+id/btnChangeColor"
+        android:text="ChancgeColor"
+        android:layout_toRightOf="@id/tvText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 </RelativeLayout>
